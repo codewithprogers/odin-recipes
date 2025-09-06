@@ -40,7 +40,7 @@ a:hover {
 .menu-container {
   color: black;
   background-color: #fff;
-  padding: 20px 0;
+  padding: 1.25rem 0;
   display: flex;
   justify-content: center;
 }
@@ -50,4 +50,51 @@ a:hover {
   background-color: #fff;
   display: flex;
   justify-content: center;
+}
+
+.recipe-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.left-column {
+  flex: 1 1;
+  min-width: 18.75rem;
+}
+
+.left-column {
+  border-right: 1.5px solid black;
+}
+
+.left-column p {
+  margin-right: 1.25rem;
+}
+
+.right-column {
+  flex: 2 1;
+  min-width: 18.75rem;
+}
+
+.left-column ul,
+.right-column ol {
+  padding: 0.3125rem 1.25rem;
+}
+
+.recipe-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  margin-bottom: 0.625rem;
+}
+
+li {
+  margin-bottom: 0.625rem;
 }
