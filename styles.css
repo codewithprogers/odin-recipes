@@ -44,3 +44,10 @@ a:hover {
   display: flex;
   justify-content: center;
 }
+
+.header-container {
+  color: black;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+}
