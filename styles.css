@@ -75,6 +75,12 @@ a:hover {
   border-right: 1.5px solid black;
 }
 
+@media (max-width: 43.125rem) {
+  .left-column{
+    border: none;
+  }
+}
+
 .left-column p {
   margin-right: 1.25rem;
 }
