@@ -36,3 +36,11 @@ a:visited {
 a:hover {
   color: grey;
 }
+
+.menu-container {
+  color: black;
+  background-color: #fff;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
