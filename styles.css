@@ -20,7 +20,7 @@
   list-style: none;
 }
 
-a {
+.home-link {
   text-decoration: none;
   color: black;
 }
